@@ -1,0 +1,6 @@
+.middle__container{
+    margin-left: 6.2rem;
+    margin-top: 5.5rem;
+    display: flex;
+    flex-direction: column;
+}

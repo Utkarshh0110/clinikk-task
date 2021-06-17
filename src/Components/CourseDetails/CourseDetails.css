@@ -1,0 +1,46 @@
+.coursedetails__container {
+  margin-top: 2.4rem;
+}
+
+.coursedetails__container--details {
+  display: flex;
+  justify-content: flex-start;
+  background-color: #e5e5e5;
+  width: 50rem;
+  height: 8rem;
+  border-radius: 1.4rem;
+}
+
+.coursedetails__container--flag {
+  background-color: #fff;
+  margin-top: 0.8rem;
+  margin-left: 0.85rem;
+  width: 6.4rem;
+  height: 6.4rem;
+  border-radius: 1.2rem;
+}
+
+.coursedetails__container--userdetails {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2.4rem;
+  margin-top: 1.89rem;
+}
+
+.coursedetails__container--userdetails > span {
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  font-family: "Baloo Bhai";
+  font-weight: bold;
+}
+
+.coursedetails__container--userdetails > h5 {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 1.3rem;
+  margin-top: 0.1rem;
+}
+
+.coursedetails__container--button {
+  margin: 2rem 2.38rem 2rem 3.97rem;
+}
