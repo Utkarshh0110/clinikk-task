@@ -7,17 +7,19 @@
   background-color: #e5e5e5;
 }
 
-.header__container--span {
+.header__container--h1 {
   display: flex;
   flex-direction: column;
   font-family: "Baloo Bhai 2", cursive;
   font-size: 3.6rem;
+  font-weight: bold;
   margin-left: 3.1rem;
   margin-top: 4.62rem;
 }
 
 .header__container--text {
   font-size: 1.6rem;
+  font-weight: 400;
   font-family: "Roboto", sans-serif;
 }
 

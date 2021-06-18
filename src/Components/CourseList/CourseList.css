@@ -1,0 +1,54 @@
+.courselist__container {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  width: 62rem;
+  height: 8rem;
+  background-color: #e5e5e5;
+  border-radius: 14px;
+  margin-top: 3rem;
+}
+
+.coursedetails__container--watchtime {
+  margin-top: 3.3rem;
+  margin-left: 3.75rem;
+  display: flex;
+}
+
+.coursedetails__imagecontainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.coursedetails__image{
+    text-align: center;
+    margin-top: 1.6rem;
+    /* margin-left: 1.6rem; */
+}
+
+.coursedetails__container--watchtime > span {
+  font-size: 1.3rem;
+  margin-left: 0.8rem;
+  font-family: "Roboto";
+  white-space: nowrap;
+  /* margin-top: -.1rem; */
+}
+
+.coursedetails__container--upvotes {
+  margin-top: 3.3rem;
+  margin-left: 4rem;
+  display: flex;
+}
+
+.coursedetails__container--upvotes > span {
+  font-size: 1.3rem;
+  margin-left: 1rem;
+  margin-top: 0.2rem;
+  font-family: "Roboto";
+}
+
+.coursedetails__container--viewcourse {
+  margin: 1.995rem 2.38rem 0 3.161rem;
+}

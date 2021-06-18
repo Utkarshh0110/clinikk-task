@@ -1,5 +1,7 @@
 .coursedetails__container {
+  display: flex;
   margin-top: 2.4rem;
+  width: 62rem;
 }
 
 .coursedetails__container--details {
@@ -31,6 +33,7 @@
   font-size: 1.6rem;
   line-height: 2.6rem;
   font-family: "Baloo Bhai";
+  white-space: nowrap;
   font-weight: bold;
 }
 
@@ -41,6 +44,16 @@
   margin-top: 0.1rem;
 }
 
-.coursedetails__container--button {
+.coursedetails__container--btn {
   margin: 2rem 2.38rem 2rem 3.97rem;
+}
+
+.coursedetails__container--button {
+  width: 4rem;
+  height: 4rem;
+  background-color: #fff;
+  border-radius: 50%;
+  border: 2px solid #0c0b0b;
+  margin-left: 2.36rem;
+  margin-top: 2rem;
 }

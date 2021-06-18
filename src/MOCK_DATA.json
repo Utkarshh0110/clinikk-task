@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "name":"Learn Figma",
+        "author": "Christopher Morgan",
+        "watchtime":"6h 30min",
+        "upvotes":"4,9",
+        "image":"figma"
+    },
+    {
+        "id": 2,
+        "name":"Analog photography",
+        "author": "Gordan Norman",
+        "watchtime":"3h 15min",
+        "upvotes":"4,7",
+        "image":"analog"
+    },
+    {
+        "id": 3,
+        "name":"Master Instagram",
+        "author": "Sophie Gill",
+        "watchtime":"7h 40min",
+        "upvotes":"4,6",
+        "image":"instagram"
+    },
+    {
+        "id": 4,
+        "name":"Basics of drawing",
+        "author": "Jean Tate",
+        "watchtime":"11h 30min",
+        "upvotes":"4,8",
+        "image":"pencil"
+    },
+    {
+        "id": 5,
+        "name":"Photoshop - Essence",
+        "author": "David Green",
+        "watchtime":"5h 35min",
+        "upvotes":"4,7",
+        "image":"photoshop"
+    }
+]

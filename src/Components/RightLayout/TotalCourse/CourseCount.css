@@ -1,0 +1,57 @@
+.coursecount__container {
+  display: flex;
+}
+
+.coursecount__container--completed {
+  display: flex;
+  justify-content: center;
+  width: 20.8rem;
+  height: 9.6rem;
+  background-color: #e5e5e5;
+  border-radius: 1.4rem;
+  margin-top: 11.8rem;
+  margin-left: 6.3rem;
+}
+
+.coursecount__container--completed > h1 {
+  font-size: 6.4rem;
+  font-family: 'Baloo Bhai 2', cursive;
+}
+
+.coursecount__container--completed > span{
+  margin-top: 3.05rem;
+  margin-left: 1.1rem;
+  width: 7.6rem;
+  height: 4.8rem;
+  line-height: 2.4rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+}
+
+.coursecount__container--progress {
+  display: flex;
+  justify-content: center;
+  width: 20.8rem;
+  height: 9.6rem;
+  background-color: #e5e5e5;
+  border-radius: 1.4rem;
+  margin-top: 11.8rem;
+  margin-left: 2.37rem;
+}
+
+.coursecount__container--progress > h1 {
+  font-size: 6.4rem;
+  font-family: 'Baloo Bhai 2', cursive;
+}
+
+.coursecount__container--progress > span{
+  margin-top: 3.05rem;
+  margin-left: 1.1rem;
+  width: 7.6rem;
+  height: 4.8rem;
+  line-height: 2.4rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+}

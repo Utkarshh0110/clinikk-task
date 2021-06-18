@@ -1,3 +1,6 @@
+
+
+
 .btn {
   width: 12rem;
   height: 4rem;
@@ -9,4 +12,18 @@
   line-height: 1.6rem;
   border-radius: .8rem;
   border: none;
+}
+
+
+.btnNone{
+  width: 12rem;
+  height: 4rem;
+  background-color: none;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 1.3rem;
+  line-height: 1.6rem;
+  border-radius: .8rem;
+  border: 2px solid #0C0B0B;
 }
