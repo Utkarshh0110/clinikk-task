@@ -1,6 +1,6 @@
 import React from "react";
 import "./Header.css";
-import usericon from "../../assets/images/usericon.svg";
+import usericon from "../../../assets/images/usericon.svg";
 const Header = () => {
   return (
     <div className="header__container">

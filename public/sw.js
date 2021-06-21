@@ -9,19 +9,18 @@ this.addEventListener("install", (event) => {
         "/",
         "/css2",
         "/static/js/vendors~main.chunk.js",
+        "/static/js/0.chunk.js",
+        "/static/js/1.chunk.js",
+        "/static/js/2.chunk.js",
+        "/static/js/3.chunk.js",
+        "/static/js/4.chunk.js",
+        "/static/js/5.chunk.js",
       ]);
     })
   );
 });
 
 this.addEventListener("fetch", (event) => {
-
-    // event.waitUntil(
-    //     this.registration.showNotification("Welcome to Target", {
-    //         body: "Learning should never stop"
-    //     })
-    // )
-
 
   if (!navigator.onLine) {
     event.respondWith(

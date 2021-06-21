@@ -1,24 +1,36 @@
 import "./App.css";
-import Navigation from "./Components/NavigationBar/Navigation";
-import MiddleLayout  from "./Components/MiddleLayout/MiddleLayout";
-import RightLayout from "./Components/RightLayout/RightLayout";
-import firebase from './firebase'
-import React from 'react'
-function App() {
+import React, { lazy, Suspense } from "react";
+import firebase from "./firebase";
+import PacmanLoader from "react-spinners/PacmanLoader";
+const Navigation = lazy(() => import("./Components/NavigationBar/Navigation"));
+const MiddleLayout = lazy(() =>
+  import("./Components/MiddleLayout/MiddleLayout")
+);
+const RightLayout = lazy(() => import("./Components/RightLayout/RightLayout"));
 
+function App() {
   React.useEffect(() => {
     const message = firebase.messaging();
-    message.requestPermission().then(() => {
-      return message.getToken();
-    }).then((data) => {
-      console.log("TOKEN ", data );
-    })
-  }, [])
+    message
+      .requestPermission()
+      .then(() => {
+        return message.getToken();
+      })
+      .then((data) => {});
+  }, []);
   return (
     <div className="app__container">
-      <Navigation />
-      <MiddleLayout/>
-      <RightLayout />
+      <Suspense
+        fallback={
+          <div className="app__fallback">
+            <PacmanLoader color="#F37A24" size={100} margin={2} />
+          </div>
+        }
+      >
+        <Navigation />
+        <MiddleLayout />
+        <RightLayout />
+      </Suspense>
     </div>
   );
 }

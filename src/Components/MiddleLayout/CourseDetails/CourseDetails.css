@@ -7,7 +7,7 @@
 .coursedetails__container--details {
   display: flex;
   justify-content: flex-start;
-  background-color: #e5e5e5;
+  background-color: #F5F5F7;
   width: 50rem;
   height: 8rem;
   border-radius: 1.4rem;
@@ -16,6 +16,9 @@
 .coursedetails__container--flag {
   background-color: #fff;
   margin-top: 0.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-left: 0.85rem;
   width: 6.4rem;
   height: 6.4rem;
@@ -32,7 +35,7 @@
 .coursedetails__container--userdetails > span {
   font-size: 1.6rem;
   line-height: 2.6rem;
-  font-family: "Baloo Bhai";
+  font-family: 'Baloo Bhai 2', cursive;
   white-space: nowrap;
   font-weight: bold;
 }
@@ -56,4 +59,11 @@
   border: 2px solid #0c0b0b;
   margin-left: 2.36rem;
   margin-top: 2rem;
+}
+
+
+.coursedetails__container--progress{
+  display: flex;
+  align-items: center;
+  
 }

@@ -3,9 +3,9 @@ import "./CourseList.css";
 import "../CourseDetails/CourseDetails.css";
 import { MdWatchLater } from "react-icons/md";
 import { HiFire } from "react-icons/hi";
-import IMAGES from '../../assets'
-import Button from "../Button/Button";
-const CourseList = ({name, author, image}) => {
+import IMAGES from '../../../assets'
+import Button from "../../Button/Button";
+const CourseList = ({name, author, image,course}) => {
   return (
     <div className="courselist__container">
       <div className="coursedetails__container--flag">
@@ -18,12 +18,12 @@ const CourseList = ({name, author, image}) => {
         <h5>by {author}</h5>
       </div>
       <div className="coursedetails__container--watchtime">
-        <MdWatchLater size="2rem" />
-        <span>6hr 30min</span>
+        <MdWatchLater className="coursedetails__container--icon" />
+        <span>{course.watchtime}</span>
       </div>
       <div className="coursedetails__container--upvotes">
         <HiFire size="2rem" />
-        <span>4,9</span>
+        <span>{course.upvotes}</span>
       </div>
       <div className="coursedetails__container--viewcourse">
         <Button name="View course" bgcolor="none" />

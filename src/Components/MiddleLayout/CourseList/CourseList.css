@@ -4,9 +4,9 @@
   flex-direction: row;
   width: 62rem;
   height: 8rem;
-  background-color: #e5e5e5;
+  background-color: #F5F5F7;
   border-radius: 14px;
-  margin-top: 3rem;
+  margin-top: 1.6rem;
 }
 
 .coursedetails__container--watchtime {
@@ -33,7 +33,14 @@
   margin-left: 0.8rem;
   font-family: "Roboto";
   white-space: nowrap;
-  /* margin-top: -.1rem; */
+}
+.coursedetails__container--userdetails {
+  width: 15.2rem;
+}
+
+.coursedetails__container--icon{
+  width: 1.6rem;
+  height: 1.6rem;
 }
 
 .coursedetails__container--upvotes {

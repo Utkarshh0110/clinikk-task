@@ -27,3 +27,18 @@
   border-radius: .8rem;
   border: 2px solid #0C0B0B;
 }
+
+.btn:hover{
+  cursor: pointer;
+  color: black;
+  background-color: #fff;
+  border: 2px solid #0C0B0B;
+  font-family: "Roboto", sans-serif;
+}
+
+.btnNone:hover{
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  background-color: black;
+}
